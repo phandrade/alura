@@ -31,6 +31,7 @@ public class ProdutoDao {
 		return produto;
 	}
 
+	// teste commit
 	public List<Produto> getProdutos(String nome, Integer categoriaId, Integer lojaId) {
 		CriteriaBuilder criteriaBuilder = em.getCriteriaBuilder();
 		CriteriaQuery<Produto> query = criteriaBuilder.createQuery(Produto.class);
